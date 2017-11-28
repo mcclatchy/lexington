@@ -1,0 +1,173 @@
+<!doctype html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+    <title>Lexington video project frame</title>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+    <link rel="canonical" href="#">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+    <style amp-custom>@font-face{font-family:mcclatchy-sans;src:url(../fonts/mcclatchy-sans-bold.woff2) format('woff2')}body{margin:0;background-color:#000;color:#fff;font-family:mcclatchy-sans,Helvetica,sans-serif}figure{margin:1rem 0}.lead{margin-top:0}.playlist{display:flex;overflow-x:scroll;-webkit-overflow-scrolling:touch}.video{flex:1 0 200px;padding:.5rem;cursor:pointer}.preview{position:relative}.play-icon-wrapper{position:absolute;top:0;left:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center}.play-icon{height:40px}h1{font-size:24px;margin:.5rem 0;text-align:center;white-space:normal}h2{color:#f47321;font-size:14px;text-align:center}@media(max-width:769px){h1{font-size:17px}}</style>
+
+    <script async custom-element="amp-brightcove" src="https://cdn.ampproject.org/v0/amp-brightcove-0.1.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    <!-- <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script> -->
+  </head>
+
+  <body>
+    <figure class="lead" id="videoPlayer">
+      <amp-brightcove
+        width="480"
+        height="270"
+        layout="responsive"
+        data-account="5351500937001"
+        data-player="HkUJhb9xz"
+        data-video-id="5660500870001"
+        [data-video-id]="currentVideo"></amp-brightcove>
+    </figure>
+
+    <!-- <amp-carousel height="250" layout="fixed-height" type="carousel"> -->
+    <div class="playlist">
+      
+      <div class="video" on="tap:AMP.pushState({ currentVideo: '5660500870001' })">
+        <h2>Episode 1</h2>
+        <div class="preview">
+          <img src="./img/ep1thumbnail.jpg" width="200" height="133"></amp-img>
+          <div class="play-icon-wrapper">
+            <svg height="40" width="40" viewBox="0 0 552.8 552.8">
+              <g>
+                <circle class="st0" cx="275.3" cy="275.3" r="264.2" fill="transparent"/>
+                <path class="st1" d="M424,260.2L213.5,138.6c-12.5-7.2-28.1,1.8-28.1,16.2v243c0,14.4,15.6,23.4,28.1,16.2L424,292.6
+                C436.5,285.4,436.5,267.4,424,260.2z" fill="white"/>
+                <path class="st1" d="M276.4,0C124,0,0,124,0,276.4s124,276.4,276.4,276.4s276.4-124,276.4-276.4S428.8,0,276.4,0z M275.9,525.6
+              c-136.6,0-247.2-110.7-247.2-247.2S139.4,31.1,275.9,31.1s247.2,110.7,247.2,247.2S412.5,525.6,275.9,525.6z" fill="white"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <h1>Built From Scratch</h1>
+      </div>
+      
+      <div class="video" on="tap:AMP.pushState({ currentVideo: '' })">
+        <h2>Episode 2</h2>
+        <div class="preview">
+          <img src="./img/ep2thumbnail.jpg" width="200" height="133"></amp-img>
+          <div class="play-icon-wrapper">
+            <svg height="40" width="40" viewBox="0 0 552.8 552.8">
+              <g>
+                <circle class="st0" cx="275.3" cy="275.3" r="264.2" fill="transparent"/>
+                <path class="st1" d="M424,260.2L213.5,138.6c-12.5-7.2-28.1,1.8-28.1,16.2v243c0,14.4,15.6,23.4,28.1,16.2L424,292.6
+                C436.5,285.4,436.5,267.4,424,260.2z" fill="white"/>
+                <path class="st1" d="M276.4,0C124,0,0,124,0,276.4s124,276.4,276.4,276.4s276.4-124,276.4-276.4S428.8,0,276.4,0z M275.9,525.6
+              c-136.6,0-247.2-110.7-247.2-247.2S139.4,31.1,275.9,31.1s247.2,110.7,247.2,247.2S412.5,525.6,275.9,525.6z" fill="white"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <h1>Home Field Advantage</h1>
+      </div>
+      
+      <div class="video" on="tap:AMP.pushState({ currentVideo: '' })">
+        <h2>Episode 3</h2>
+        <div class="preview">
+          <img src="./img/ep3thumbnail.jpg" width="200" height="133"></amp-img>
+          <div class="play-icon-wrapper">
+            <svg height="40" width="40" viewBox="0 0 552.8 552.8">
+              <g>
+                <circle class="st0" cx="275.3" cy="275.3" r="264.2" fill="transparent"/>
+                <path class="st1" d="M424,260.2L213.5,138.6c-12.5-7.2-28.1,1.8-28.1,16.2v243c0,14.4,15.6,23.4,28.1,16.2L424,292.6
+                C436.5,285.4,436.5,267.4,424,260.2z" fill="white"/>
+                <path class="st1" d="M276.4,0C124,0,0,124,0,276.4s124,276.4,276.4,276.4s276.4-124,276.4-276.4S428.8,0,276.4,0z M275.9,525.6
+              c-136.6,0-247.2-110.7-247.2-247.2S139.4,31.1,275.9,31.1s247.2,110.7,247.2,247.2S412.5,525.6,275.9,525.6z" fill="white"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <h1>Facing Tradition</h1>
+      </div>
+      
+      <div class="video" on="tap:AMP.pushState({ currentVideo: '' })">
+        <h2>Episode 4</h2>
+        <div class="preview">
+          <img src="./img/ep4thumbnail.jpg" width="200" height="133"></amp-img>
+          <div class="play-icon-wrapper">
+            <svg height="40" width="40" viewBox="0 0 552.8 552.8">
+              <g>
+                <circle class="st0" cx="275.3" cy="275.3" r="264.2" fill="transparent"/>
+                <path class="st1" d="M424,260.2L213.5,138.6c-12.5-7.2-28.1,1.8-28.1,16.2v243c0,14.4,15.6,23.4,28.1,16.2L424,292.6
+                C436.5,285.4,436.5,267.4,424,260.2z" fill="white"/>
+                <path class="st1" d="M276.4,0C124,0,0,124,0,276.4s124,276.4,276.4,276.4s276.4-124,276.4-276.4S428.8,0,276.4,0z M275.9,525.6
+              c-136.6,0-247.2-110.7-247.2-247.2S139.4,31.1,275.9,31.1s247.2,110.7,247.2,247.2S412.5,525.6,275.9,525.6z" fill="white"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <h1>Kings of Lexington</h1>
+      </div>
+      
+      <div class="video" on="tap:AMP.pushState({ currentVideo: '' })">
+        <h2>Episode 5</h2>
+        <div class="preview">
+          <img src="./img/blank.jpg" width="200" height="133"></amp-img>
+          <div class="play-icon-wrapper">
+            <svg height="40" width="40" viewBox="0 0 552.8 552.8">
+              <g>
+                <circle class="st0" cx="275.3" cy="275.3" r="264.2" fill="transparent"/>
+                <path class="st1" d="M424,260.2L213.5,138.6c-12.5-7.2-28.1,1.8-28.1,16.2v243c0,14.4,15.6,23.4,28.1,16.2L424,292.6
+                C436.5,285.4,436.5,267.4,424,260.2z" fill="white"/>
+                <path class="st1" d="M276.4,0C124,0,0,124,0,276.4s124,276.4,276.4,276.4s276.4-124,276.4-276.4S428.8,0,276.4,0z M275.9,525.6
+              c-136.6,0-247.2-110.7-247.2-247.2S139.4,31.1,275.9,31.1s247.2,110.7,247.2,247.2S412.5,525.6,275.9,525.6z" fill="white"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <h1>Faces of Bronco Football</h1>
+      </div>
+      
+      <div class="video" on="tap:AMP.pushState({ currentVideo: '' })">
+        <h2>Episode 6</h2>
+        <div class="preview">
+          <img src="./img/ep6thumbnail.jpg" width="200" height="133"></amp-img>
+          <div class="play-icon-wrapper">
+            <svg height="40" width="40" viewBox="0 0 552.8 552.8">
+              <g>
+                <circle class="st0" cx="275.3" cy="275.3" r="264.2" fill="transparent"/>
+                <path class="st1" d="M424,260.2L213.5,138.6c-12.5-7.2-28.1,1.8-28.1,16.2v243c0,14.4,15.6,23.4,28.1,16.2L424,292.6
+                C436.5,285.4,436.5,267.4,424,260.2z" fill="white"/>
+                <path class="st1" d="M276.4,0C124,0,0,124,0,276.4s124,276.4,276.4,276.4s276.4-124,276.4-276.4S428.8,0,276.4,0z M275.9,525.6
+              c-136.6,0-247.2-110.7-247.2-247.2S139.4,31.1,275.9,31.1s247.2,110.7,247.2,247.2S412.5,525.6,275.9,525.6z" fill="white"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <h1>Survive and Advance</h1>
+      </div>
+      
+      <div class="video" on="tap:AMP.pushState({ currentVideo: '' })">
+        <h2>Episode 7</h2>
+        <div class="preview">
+          <img src="./img/ep7thumbnail.jpg" width="200" height="133"></amp-img>
+          <div class="play-icon-wrapper">
+            <svg height="40" width="40" viewBox="0 0 552.8 552.8">
+              <g>
+                <circle class="st0" cx="275.3" cy="275.3" r="264.2" fill="transparent"/>
+                <path class="st1" d="M424,260.2L213.5,138.6c-12.5-7.2-28.1,1.8-28.1,16.2v243c0,14.4,15.6,23.4,28.1,16.2L424,292.6
+                C436.5,285.4,436.5,267.4,424,260.2z" fill="white"/>
+                <path class="st1" d="M276.4,0C124,0,0,124,0,276.4s124,276.4,276.4,276.4s276.4-124,276.4-276.4S428.8,0,276.4,0z M275.9,525.6
+              c-136.6,0-247.2-110.7-247.2-247.2S139.4,31.1,275.9,31.1s247.2,110.7,247.2,247.2S412.5,525.6,275.9,525.6z" fill="white"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <h1>Rematch</h1>
+      </div>
+      
+    </div>
+    <!-- </amp-carousel> -->
+
+    <script>window.addEventListener('load',function(){window.parent.postMessage({sentinel:'amp',type:'embed-size',height:document.body.scrollHeight},'*');});</script>
+  </body>
+</html>

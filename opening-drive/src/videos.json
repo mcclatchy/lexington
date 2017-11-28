@@ -1,0 +1,46 @@
+{
+  "videos": [
+    {
+      "id": "5660500870001",
+      "title": "Built From Scratch",
+      "description": "After a summer of preparation and construction, the Broncos play their first game against dominant Danville.",
+      "image": "ep1thumbnail.jpg"
+    },
+    {
+      "id": "",
+      "title": "Home Field Advantage",
+      "description": "The Broncos first home game comes with another welcome first.",
+      "image": "ep2thumbnail.jpg"
+    },
+    {
+      "id": "",
+      "title": "Facing Tradition",
+      "description": "On a winning streak, the Broncos face central Kentucky powerhouse Scott County.",
+      "image": "ep3thumbnail.jpg"
+    },
+    {
+      "id": "",
+      "title": "Kings of Lexington",
+      "description": "As the team wraps up the regular season, a homecoming king is crowned and the team takes the top spot in town.",
+      "image": "ep4thumbnail.jpg"
+    },
+    {
+      "id": "",
+      "title": "Faces of Bronco Football",
+      "description": "More than just a jersey numbers, these kids are what make up Frederick Douglass football.",
+      "image": "blank.jpg"
+    },
+    {
+      "id": "",
+      "title": "Survive and Advance",
+      "description": "Time for playoffs. The Broncos face two familiar opponents in the first two rounds.",
+      "image": "ep6thumbnail.jpg"
+    },
+    {
+      "id": "",
+      "title": "Rematch",
+      "description": "November 17 has been circled on the schedule. The Broncos head back to Scott County.",
+      "image": "ep7thumbnail.jpg"
+    }
+  ]
+}
