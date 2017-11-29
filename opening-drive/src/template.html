@@ -16,7 +16,6 @@
 
     <script async custom-element="amp-brightcove" src="https://cdn.ampproject.org/v0/amp-brightcove-0.1.js"></script>
     <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
-    <!-- <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script> -->
   </head>
 
   <body>
@@ -25,13 +24,12 @@
         width="480"
         height="270"
         layout="responsive"
-        data-account="5351500937001"
-        data-player="HkUJhb9xz"
-        data-video-id="5660500870001"
+        data-account="5615998026001"
+        data-player="H129Nc2gG"
+        data-video-id="5662477086001"
         [data-video-id]="currentVideo"></amp-brightcove>
     </figure>
 
-    <!-- <amp-carousel height="250" layout="fixed-height" type="carousel"> -->
     <div class="playlist">
       {{ range $key, $video := .videos }}
       <div class="video" on="tap:AMP.pushState({ currentVideo: '{{ $video.id }}' })">
@@ -54,7 +52,6 @@
       </div>
       {{ end }}
     </div>
-    <!-- </amp-carousel> -->
 
     <script>
       {{- file "page.js" | minify "text/javascript" -}}

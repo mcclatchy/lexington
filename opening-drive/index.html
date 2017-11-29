@@ -14,7 +14,6 @@
 
     <script async custom-element="amp-brightcove" src="https://cdn.ampproject.org/v0/amp-brightcove-0.1.js"></script>
     <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
-    <!-- <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script> -->
   </head>
 
   <body>
@@ -23,16 +22,15 @@
         width="480"
         height="270"
         layout="responsive"
-        data-account="5351500937001"
-        data-player="HkUJhb9xz"
-        data-video-id="5660500870001"
+        data-account="5615998026001"
+        data-player="H129Nc2gG"
+        data-video-id="5662477086001"
         [data-video-id]="currentVideo"></amp-brightcove>
     </figure>
 
-    <!-- <amp-carousel height="250" layout="fixed-height" type="carousel"> -->
     <div class="playlist">
       
-      <div class="video" on="tap:AMP.pushState({ currentVideo: '5660500870001' })">
+      <div class="video" on="tap:AMP.pushState({ currentVideo: '5662477086001' })">
         <h2>Episode 1</h2>
         <div class="preview">
           <img src="./img/ep1thumbnail.jpg" width="200" height="133"></amp-img>
@@ -51,7 +49,7 @@
         <h1>Built From Scratch</h1>
       </div>
       
-      <div class="video" on="tap:AMP.pushState({ currentVideo: '' })">
+      <div class="video" on="tap:AMP.pushState({ currentVideo: '5662459085001' })">
         <h2>Episode 2</h2>
         <div class="preview">
           <img src="./img/ep2thumbnail.jpg" width="200" height="133"></amp-img>
@@ -166,7 +164,6 @@
       </div>
       
     </div>
-    <!-- </amp-carousel> -->
 
     <script>window.addEventListener('load',function(){window.parent.postMessage({sentinel:'amp',type:'embed-size',height:document.body.scrollHeight},'*');});</script>
   </body>
