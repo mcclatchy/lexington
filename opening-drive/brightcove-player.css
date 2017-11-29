@@ -5,7 +5,7 @@
 @font-face {
   font-family: "mcclatchy-sans-cond";
   src: url('https://mcclatchy.github.io/lexington/fonts/mcclatchy-sans-cond-demi.woff2') format('woff2'),
-       url('https://cdn.rawgit.com/mcclatchy/lexington/f42dc108/opening-drive/brightcove-player.css') format('truetype');
+       url('https://mcclatchy.github.io/lexington/fonts/mcclatchy-sans-cond-demi.ttf') format('truetype');
 }
 
 .video-js .vjs-dock-text {
